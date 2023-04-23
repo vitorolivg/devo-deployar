@@ -1,38 +1,49 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Devo Deployar?
 
-## Getting Started
+## Overview
 
-First, run the development server:
+Devo Deployar? is a website built using Next.js that provides a fun and lighthearted way to help users decide whether or not they should deploy their code. Inspired by the popular website [shouldideploy.today](https://shouldideploy.today/), Devo Deployar? takes a similar approach to helping developers make the right decision.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+The site features a simple interface with a prominent "Click here" button and a series of humorous phrases that change depending on the user's input. If the user clicks the "Click here" button or hit the "Enter" key, the site will generate a random phrase that either encourages or discourages deployment.
+
+## Technologies Used
+
+Devo Deployar? is built using Next.js, a popular React-based framework for building server-side rendered web applications. The site also uses CSS modules for styling and is deployed on Vercel.
+
+## Installation and Usage
+
+To run Devo Deployar? locally, first clone the repository:
+
+```
+git clone https://github.com/your-username/devo-deployar.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Then, navigate to the project directory and install the dependencies:
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+```
+cd devo-deployar
+npm install
+```
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+To start the development server, run:
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+```
+npm run dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+This will start the server at [http://localhost:3000](http://localhost:3000). You can now access the site in your web browser and begin testing it out.
 
-## Learn More
+## Contributing
 
-To learn more about Next.js, take a look at the following resources:
+If you'd like to contribute to Devo Deployar?, you can do so by forking the repository and submitting a pull request. Before submitting your pull request, be sure to run the following commands to ensure that your changes meet the project's coding standards:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```
+npm run lint
+npm run format
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Once your changes have been submitted, a project maintainer will review them and merge them into the main branch if they meet the project's standards.
 
-## Deploy on Vercel
+## License
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Devo Deployar? is licensed under the MIT license. See the LICENSE file for more information.
