@@ -8,7 +8,7 @@ The site features a simple interface with a prominent "Click here" button and a 
 
 ## Technologies Used
 
-Devo Deployar? is built using Next.js, a popular React-based framework for building server-side rendered web applications. The site also uses CSS modules for styling and is deployed on Vercel.
+Devo Deployar? is built using Next.js, a popular React-based framework for building server-side rendered web applications. The site also uses Chakra for styling and is deployed on Vercel.
 
 ## Installation and Usage
 
